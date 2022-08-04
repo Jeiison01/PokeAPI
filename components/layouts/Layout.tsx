@@ -18,7 +18,7 @@ export const Layout = ({children, title}: Props) => {
             <meta name="author" content="Jeison Rodriguez"/>
             <meta name="description" content={`Information about the Pokémon ${title}`}/>
             <meta name="keywords" content={`${title}, pokemon, pokedex`}/>
-            <meta property="og:title" content={`Information about the Pokemon $(title)`}/>
+            <meta property="og:title" content={`Information about the Pokemon ${title}`}/>
             <meta property="og:description" content={`This is the page about the Pokemon ${title}`}/>
             <meta property="og:image" content={`${origin}/img/banner.png`}/>
         </Head>
